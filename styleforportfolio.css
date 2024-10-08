@@ -1,74 +1,86 @@
+body{
+    background-color: rgb(209, 255, 240);
+}
+
 #heading{
     height: 50px;
     width: auto;
     border: 2px solid black;
+    border-radius: 4px;
     background-color: gray;
     color: wheat;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.2s ease-in 0.2s;
+    transition: all 0.2s ease-in 0.1s;
 }
 
 #heading:hover{
     font-size: large;
-    background-color: rgb(84, 75, 75);
+    background-color: rgb(48, 44, 44);
+    border: 2px solid wheat;
 }
 #prt{
     text-decoration: none;
     color: wheat;
 }
 
-#learning{
-    width: auto;
-    height: 150px;
-    border: 2px solid white;
+.contentarea{
+    height: 500px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-image: url("photos/fish.jpg");
+    background-size: cover;
+    border-radius: 4px;
+    margin-top: 0.85rem;
+}
+
+.learning{
+    width: 37%;
+    height: 130px;
+    color: white;
+    /* border: 2px solid black; */
+    border-radius: 4px;
     transition: all 0.2s ease-in 0.2s;
+    /* background-color: rgb(233, 255, 248); */
+    padding: 1px;
+    margin-top: 0.85rem;
 }
 
-#learning:hover{
-    background-color: rgb(221, 255, 244);
+.learning:hover{
+    /* border: 2px solid wheat; */
+    /* background-image: url("photos/bear.jpg"); */
+    background-color: black;
+    border-radius: 10px;
 }
 
-
-#projectlink{
-    width: auto;
-    height: 150px;
-    border: 2px solid white;
-    transition: all 0.2s linear 0.2s;
-}
-
-#projectlink:hover{
-    background-color: rgb(233, 255, 248);
-}
-
-#calculatorlink{
+#linksofwork{
     text-decoration: none;
     color: rgb(234, 3, 255);
 }
-
-#amazonclone{
-    text-decoration: none;
-    color: rgb(234, 3, 255);
-}
-
-#elementinflex{
-    text-decoration: none;
-    color: rgb(234, 3, 255);
-}
-
-#slider{
-    text-decoration: none;
-    color: rgb(234, 3, 255);
-
+#linksofwork:hover{
+    text-decoration: underline;
+    color: rgb(255, 251, 3);
 }
 
 #footer{
     width: auto;
-    height: 50px;
-    background-color: aliceblue;
+    height: 150px;
+    color: wheat;
+    background-color: black;
     border: 1px solid rgb(38, 37, 37);
+    font-size: 15px;
+    border-radius: 4px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in 0.1s;
+    margin-top: 0.85rem;
+}
 
+#footer:hover{
+    font-size: small;
+    border: 2px solid orange;
+    font-size: 16px;
 }
