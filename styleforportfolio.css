@@ -1,0 +1,74 @@
+#heading{
+    height: 50px;
+    width: auto;
+    border: 2px solid black;
+    background-color: gray;
+    color: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in 0.2s;
+}
+
+#heading:hover{
+    font-size: large;
+    background-color: rgb(84, 75, 75);
+}
+#prt{
+    text-decoration: none;
+    color: wheat;
+}
+
+#learning{
+    width: auto;
+    height: 150px;
+    border: 2px solid white;
+    transition: all 0.2s ease-in 0.2s;
+}
+
+#learning:hover{
+    background-color: rgb(221, 255, 244);
+}
+
+
+#projectlink{
+    width: auto;
+    height: 150px;
+    border: 2px solid white;
+    transition: all 0.2s linear 0.2s;
+}
+
+#projectlink:hover{
+    background-color: rgb(233, 255, 248);
+}
+
+#calculatorlink{
+    text-decoration: none;
+    color: rgb(234, 3, 255);
+}
+
+#amazonclone{
+    text-decoration: none;
+    color: rgb(234, 3, 255);
+}
+
+#elementinflex{
+    text-decoration: none;
+    color: rgb(234, 3, 255);
+}
+
+#slider{
+    text-decoration: none;
+    color: rgb(234, 3, 255);
+
+}
+
+#footer{
+    width: auto;
+    height: 50px;
+    background-color: aliceblue;
+    border: 1px solid rgb(38, 37, 37);
+    display: flex;
+    justify-content: center;
+
+}

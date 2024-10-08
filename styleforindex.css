@@ -1,0 +1,139 @@
+    /* this is nav bar style */
+#links{
+        text-decoration: none;
+        color: white;
+        margin-left: 200px;  }
+    
+#links3{
+        text-decoration: none;
+        color: white;
+        margin-left: 200px;
+        margin-right: 200px;   }
+    
+#buttonofhead{
+        background-color: #f08804;    }
+    
+#linksofhome{
+        text-decoration: none;
+        color: #f08804;
+        margin-left: 10px;
+        font-size: 25px;    }
+    
+#divofnav{
+        width: auto;
+        height: 60px;
+        border: 2px solid wheat;
+        background-color: #0f1111;
+         /* transition: all 0.2 ease-in 0.1;   */
+        }
+
+    /* this is nav bar style end */
+
+/* #divofnav:hover{
+        color: #f08804;
+} */
+
+
+body{  background-color: rgb(227, 245, 255);  }
+
+#profilepic{    width: 100px;
+        height: 100px;
+        border-radius: 50%;   }
+
+
+#title{
+        color: rgb(0, 0, 0);
+        text-align: center;
+        text-decoration: underline;  }
+
+#info{
+        width: 1520px;
+        height: 300px;
+        /* border: 2px solid black; */
+         border: 2px solid rgb(227, 245, 255); 
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        justify-content: space-evenly;  } 
+
+
+#info2{
+        width: 1520px;
+        height: 300px;
+        /* border: 2px solid black; */
+         border: 2px solid rgb(227, 245, 255); 
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        margin-top: 350px;
+        justify-content: space-evenly;  }
+
+#personaldetailbox{
+        width: 400px;
+        height: 300px;
+         border: 2px solid rgb(227, 245, 255); 
+        /* border: 2px solid black;  */
+ }
+#myytlink{
+       color: #f08804;   }
+
+#kecklink{
+        text-decoration: none;
+        color: #f08804;   }
+
+#box1ininfo{
+        width: 400px;
+        height: 300px;
+        border: 2px solid rgb(227, 245, 255); 
+         /* border: 2px solid black;  */
+           } 
+
+#footer{
+        width: auto;
+        border: 0.5px solid black;
+        position: absolute;
+        top: 880px;
+        background-color: #0f1111;
+        color: white; 
+         }
+
+
+ #linksfoot{
+          text-decoration: none;
+          color: white;
+          margin-left: 20px;  }
+
+
+ #links3foot{
+        text-decoration: none;
+         color: white;
+        margin-left: 20px;
+        }
+
+#copyright{
+       text-align: center;   
+       }
+            
+#shortcutlink{
+        display: inline-block;
+        margin-left: 50px;
+        }   
+
+#lovemsg{
+        display: inline-block;
+        margin-left: 510px;
+        margin-right: 590px;
+         }
+
+#socialmedialink{
+        display: inline-block;
+        margin-left: 400px;
+        margin-right: 0px;
+        position: absolute;
+        right: 250px;
+        /* transition: all 0.2 ease-in 0.1;  */
+         }
+
+/* #socialmedialink:hover{
+        color: red;
+}          */
