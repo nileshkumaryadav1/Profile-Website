@@ -29,7 +29,6 @@ body{
     height: 500px;
     display: flex;
     justify-content:center;
-    align-items: center;
     background-image: url("photos/fish.jpg");
     background-size: cover;
     border-radius: 4px;
